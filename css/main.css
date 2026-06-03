@@ -1,0 +1,359 @@
+/* global file */
+@import url('./global.css');
+
+/* colors file */
+@import url('./colors.css');
+
+/* fonts file */
+@import url('./fonts.css');
+
+
+/* main css */
+
+
+/* top header */
+
+
+
+header .top-header {
+    
+    
+    /* border-top: 1px solid var(--light-grey); */
+    border-bottom: 1px solid var(--light-grey);
+    padding: 10px 0;
+    padding-left: 64px;
+    padding-right: 64px;
+
+}
+
+.top-header .social-icons{
+    gap: 12px;
+}
+
+
+header .top-header .icon {
+    height: 28px;
+    width: 28px;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+
+}
+
+header .top-header i {
+
+    height: 16px;
+    width: 16px;
+    color: var(--primary-color);
+    
+}
+header .top-header .advertisment p {
+    font-size: 12px;
+    font-weight: 500;
+
+}
+header .top-header .advertisment p a {
+    color: var(--secondary-color);
+    text-decoration: underline;
+} 
+
+
+.top-header .contact {
+    font-size: 12px;
+}
+
+
+
+
+/* bottom header */
+/* ??? align-items */
+
+header .bottom-header {
+    
+
+    border-bottom: 1px solid var(--light-grey);
+    padding:20px 32px;
+
+    /* ???? */
+    position: sticky;
+    top: 0;
+  
+
+
+}
+
+header .bottom-header .logo a img{
+    width: 131px ;
+    height: 29px;
+}
+
+header .bottom-header .nav-bar ul {
+    gap: 20px;
+}
+
+
+
+  
+  
+  
+  
+
+header .bottom-header .nav-bar ul li a {
+
+    font-size: 16px;
+    color: var(--primary-color);
+    position: relative;
+}
+
+
+/* ??? */
+.nav-bar a::after {
+    content: "";
+    position: absolute;
+    left: -3px; 
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transition: 0.3s;
+  }
+
+  .nav-bar a:hover::after {
+    width: 100%;
+  }
+
+header .bottom-header  .header-actions {
+
+    gap: 20px;
+}
+
+header .bottom-header  .header-actions button {
+  border: 0px;
+  background-color: transparent;
+  
+
+}
+
+header .bottom-header  .header-actions button:hover {
+    opacity: 0.3;
+}
+
+
+/* hero section */
+.main-section .container .row {
+    gap: 36px;
+    margin-top: 48px;
+}
+
+.main-section .img-details {
+    gap: 15px;
+
+
+}
+
+.main-section .imgs {
+
+    gap: 10px;
+}
+.main-section .container .row .img-details  img {
+
+ border-radius: 10px;
+ object-fit: cover;   
+} 
+
+
+.main-section .product-details {
+
+    gap: 10px;
+
+    position: relative;
+}
+
+.fav {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    font-size: 24px;
+    color: var(--primary-color);
+
+    /* ?? */
+    border-radius: 50%;
+    border: 1px solid var(--light-grey);
+}
+
+.main-section .product-details h3 {
+
+    font-size: 30px;
+}
+
+
+.main-section .product-details h4 {
+
+    font-size: 20px;
+}
+
+.main-section .product-details .price .new-price {
+
+    font-size: 24px;
+    color: var(--secondary-color);
+}
+
+.main-section .product-details .price .new-price span {
+
+    font-size: 18px;
+}
+
+
+.main-section .product-details .price del {
+    font-size: 16px;
+    color: var(--grey2);
+    text-decoration: line-through;
+}
+
+
+
+
+.main-section .product-details .price del span{
+    font-size: 12px;
+
+}
+
+.main-section .product-details .offer {
+
+    background-color: var(--secondary-color);
+    padding: 8px 12px;
+    font-size: 10.8px;
+    color: var(--white);
+    border-radius: 15%;
+}
+.dot {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    
+}
+
+
+.main-section .product-details ul {
+    gap: 9px;
+}
+
+.main-section .product-details .shoe-size ul li{
+    margin-top: 9px;
+    padding: 4px 8px;
+    border: 0.8px solid var(--light-grey);
+    font-size: 14px;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+
+.main-section .product-details .shoe-size ul li:hover {
+
+    background-color: var(--light-grey);
+}
+
+.main-section .product-details p {
+
+    font-size: 16px;
+    color: var(--black2);
+    line-height: 24px;
+}
+
+
+.main-section .product-details .buying {
+
+    gap: 16px;
+
+}
+
+
+.main-section .product-details .buying .select {
+
+    padding: 8px 16px;
+
+    border: 1px solid rgb(27, 27, 27);
+    gap: 16px;
+    width: 30%;
+}
+.main-section .product-details .buying .select button{
+    background-color: transparent;
+    border: 0;
+    font-size: 24px;
+}
+
+
+.main-section .product-details .buying .select span {
+    font-size: 16px;
+}
+
+.main-section .product-details .buying .adding {
+
+    padding: 12px 32px;
+    font-size: 16px;
+    color: var(--white);
+
+    background-color: var(--primary-color);
+    border-radius: 2px; 
+    width: 70%;
+}
+
+.main-section .product-details .features {
+    margin-top: 30px;
+}
+
+.main-section .product-details .features i {
+    color: var(--dark-grey);
+}
+
+.main-section .product-details .features span {
+    color: var(--dark-grey);
+}
+
+
+
+
+.main-section .tab-content .content-items {
+    
+        list-style: disc;
+        padding-left: 20px;
+      
+}
+
+.main-section .tab-content .content-items  li{
+    color: var(--grey3);
+}
+
+.content-items li::marker {
+    color: var(--primary-color);
+  }
+
+
+  .main-section .tab-content h3 {
+
+    font-size: 18px;
+    margin: 16px 0 8px;
+    color: var(--black3);
+  }
+
+  .main-section .tab-content .content-items li p {
+
+    font-size: 16px;
+    line-height: 24px;
+
+  }
+
+  
+.main-section .tab-content p{
+    color: var(--grey3);
+}
+
+/* footer */
+
+footer .footer-logo img{
+
+    width: 131px ;
+    height: 36px;
+}
+
+footer
