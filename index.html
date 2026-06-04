@@ -164,8 +164,11 @@
 
                 <div class="product-details d-flex flex-column">
                     <h3>Clogs</h3>
-                    <i class="fav fa-regular fa-heart"></i>
-                    <div class="price">
+                    <div class="icon">
+                        <i class="fav fa-regular fa-heart"></i>
+                   
+                    </div>
+                     <div class="price">
                         <span class="new-price">690 <span>EGP</span>
                           <del>1100 <span>EGP</span></del>
                         </span>
@@ -240,64 +243,86 @@
 
 
             </div>
+
+
+            
+            <div class="tabs">
+                
+                <!-- Tab links -->
+                <div class="tab">
+
+                    <ul class="d-flex">
+                        <li class="active">
+                            <button class="tab-links"> Description</button>
+                        </li>
+
+                        <li>
+                            <button class="tab-links" >Additional Information</button>
+
+                        </li>
+                    </ul>
+                    
+                </div>
+        
+                <!-- Tab content -->
+
+                <div class="contents">
+                        <div class="tab-content">
+                            <h3>Specifications</h3>
+                            <ul class="content-items d-flex flex-column">
+                                <li >
+                                    <p><strong>Product Name: </strong>Clogs</p>
+                                </li>
+                                <li>
+                                    <p><strong>Upper Material: </strong>Soft premium suede for a smooth, velvety texture and stylish matte finish</p>
+                                </li>
+                
+                                <li>
+                                    <p><strong>Color: </strong>Deep earthy brown for a versatile, natural look</p>
+                                </li>
+                
+                                <li>
+                                    <p><strong>Design: </strong>Classic closed-toe clog silhouette for everyday comfort and protection</p>
+                                </li>
+                
+                                <li>
+                                    <p><strong>Adjustable Strap: </strong>Functional buckle strap allows easy adjustment for a personalized fit</p>
+                                </li>
+                
+                                <li>
+                                    <p><strong>Footbed: </strong>Contoured and cushioned footbed designed to support the natural arch of the foot</p>
+                                </li>
+                
+                                <li>
+                                <p><strong>Outsole: </strong>Durable, textured outsole that provides stability and grip</p>
+                                </li>
+                
+                                <li>
+                                <p><strong>Fit: </strong>Easy slip-on design for convenient everyday wear</p>
+                                </li>
+                
+                                <li>
+                                <p><strong>Comfort Level: </strong>Lightweight construction suitable for extended wear</p> 
+                                </li>
+                
+                                <li>
+                                    <p><strong>Style Use: </strong>Ideal for casual outfits, relaxed home wear, or everyday errands</p>
+                                </li>
+                            </ul>
+                        </div>
+                
+                        <div class="tab-content">
+                            <span>Material</span>
+                            <p>Natural Leather</p>
+                        </div>
+                </div>
+            
+            </div>
+                
         </div>
 
-        <!-- Tab links -->
-        <div class="tab">
-            <button class="tablinks"> Description</button>
-            <button class="tablinks" >Additional Information</button>
+        
 
-        </div>
-  
-        <!-- Tab content -->
-        <div class="tab-content">
-            <h3>Specifications</h3>
-            <ul class="content-items">
-                <li >
-                    <p><strong>Product Name: </strong>Clogs</p>
-                </li>
-                <li>
-                    <p><strong>Upper Material: </strong>Soft premium suede for a smooth, velvety texture and stylish matte finish</p>
-                </li>
-
-                <li>
-                    <p><strong>Color: </strong>Deep earthy brown for a versatile, natural look</p>
-                </li>
-
-                <li>
-                    <p><strong>Design: </strong>Classic closed-toe clog silhouette for everyday comfort and protection</p>
-                </li>
-
-                <li>
-                    <p><strong>Adjustable Strap: </strong>Functional buckle strap allows easy adjustment for a personalized fit</p>
-                </li>
-
-                <li>
-                    <p><strong>Footbed: </strong>Contoured and cushioned footbed designed to support the natural arch of the foot</p>
-                </li>
-
-                <li>
-                   <p><strong>Outsole: </strong>Durable, textured outsole that provides stability and grip</p>
-                </li>
-
-                <li>
-                   <p><strong>Fit: </strong>Easy slip-on design for convenient everyday wear</p>
-                </li>
-
-                <li>
-                   <p><strong>Comfort Level: </strong>Lightweight construction suitable for extended wear</p> 
-                </li>
-
-                <li>
-                    <p><strong>Style Use: </h4>strong>Ideal for casual outfits, relaxed home wear, or everyday errands</p>
-                </li>
-            </ul>
-        </div>
-
-        <div class="tab-content">
-            <span>Material</span>
-            <p>Natural Leather</p>
-        </div>
         
 
     </main>
@@ -305,8 +330,8 @@
     <!-- footer -->
     <footer>
         <div class="container">
-            <div class="row d-flex justify-content-between align-items-center">
-                <div class="footer-contact">
+            <div class="row  footer-top d-flex justify-content-between">
+                <div class="footer-contact d-flex flex-column gap-20">
                     <div class="footer-logo">
                       
                             <a href="#">
@@ -351,7 +376,7 @@
               
                 </div>
 
-                <div class="help d-flex flex-column">
+                <div class="help d-flex flex-column gap-20">
                     <h4>Help</h4>
                     <p>Privacy Policy</p>
                     <p>Payment Policy</p>
@@ -361,7 +386,7 @@
                     <p>FAQs</p>
                 </div>
 
-                <div class="about-us d-flex flex-column">
+                <div class="about-us d-flex flex-column gap-20">
                     <h4>About Us</h4>
                     <p>Our Store</p>
                     <p>Contact Us</p>
@@ -369,21 +394,36 @@
                     
                 </div>
 
-                <div class="sign-up d-flex flex-column">
+                <div class="sign-up d-flex flex-column gap-20">
                     <h4>Sign Up for Email</h4>
                     
                     <form>
                         <label for="sign-up">
                             Sign up to get first dibs on new arrivals, sales, exclusive content, events and more!
                         </label>
-
-                        <input type="email" name="email" placeholder="email@example.com" autocomplete="on" required>
-                    </form>
+                        
+                        <div class="subscribe">
+                            <input type="email" name="email" placeholder="email@example.com" autocomplete="on" required>
+                            <button type="submit">Subscribe</button>
+                        
+                        </div>
+                       </form>
                     
                 </div>
 
 
             </div>
+
+            <div class="row footer-bottom d-flex justify-content-between">
+
+                <p>© Copyright 2010 - 2026, Keswa Store. All rights reserved.</p>
+                <div class="money-method d-flex">
+                    <img src="./img/paymob.png" alt="paymob">
+                    <img src="./img/instapay.png" alt="instapay">
+                    <img src="./img/instapay.png" alt="instapay">
+                </div>
+            </div>
+
         </div>
     </footer>
 </body>
