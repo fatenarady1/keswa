@@ -180,22 +180,30 @@ header .bottom-header  .header-actions button:hover {
     position: relative;
 }
 
+/* FIXME: */
 .fav {
-    position: absolute;
-    top: 0;
-    right: 0;
+
 
     font-size: 24px;
     color: var(--primary-color);
 
-    /* ?? */
-  
+    
+}
+.wish-list {
+
+
+cursor: pointer;
+position: absolute;
+top: 0;
+right: 0;
+border-radius: 50%;
+border: 1px solid var(--light-grey);
+width: 46px;
+height: 46px;
+background-color: transparent;
 }
 
-.product-details .icon{
-    border-radius: 50%;
-    border: 1px solid var(--light-grey);
-}
+
 
 .main-section .product-details h3 {
 
