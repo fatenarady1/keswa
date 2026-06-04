@@ -10,6 +10,10 @@
 </head>
 </head>
 <body>
+
+    <div class="whatsapp-icon d-flex">
+        <i class="fa-brands fa-whatsapp"></i>
+    </div>
     <header>
 
         
@@ -37,7 +41,7 @@
                                
                             </div>
         
-                            <div class="advertisment">
+                            <div class="advertisment d-flex">
                                 <p>Your journey begins now . Shop now for 50% off
                                     <a href="#">
                                         SHOP NOW
@@ -61,7 +65,10 @@
                                     <img src="https://keswastore.com/storage/channel/1/yfYcRIWvOcZz2l3IrbQEu5AeaNbabfHw8pdWiMwJ.png" >
                                 </a>
                             </div>
-        
+                            
+                            <button class="nav-btn">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
                             <nav class="nav-bar">
                                 <ul class="d-flex">
                                     <li>
@@ -255,11 +262,16 @@
                     <ul class="d-flex">
                         <li class="active">
                             <button class="tab-links"> Description</button>
+                            <button class="bt-down">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </button>
                         </li>
 
                         <li>
                             <button class="tab-links" >Additional Information</button>
-
+                            <button class="bt-down">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </button>
                         </li>
                     </ul>
                     
@@ -378,37 +390,63 @@
                 </div>
 
                 <div class="help d-flex flex-column gap-20">
+                  <div class="drop d-flex">
                     <h4>Help</h4>
-                    <p>Privacy Policy</p>
-                    <p>Payment Policy</p>
-                    <p>Shipping Policy</p>
-                    <p>Return Policy</p>
-                    <p>Terms & Conditions</p>
-                    <p>FAQs</p>
+                    <button class="bt-down d-inline ">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                  </div>
+                    <div class="items">
+                        <p>Privacy Policy</p>
+                        <p>Payment Policy</p>
+                        <p>Shipping Policy</p>
+                        <p>Return Policy</p>
+                        <p>Terms & Conditions</p>
+                        <p>FAQs</p>
+                    </div>
                 </div>
 
                 <div class="about-us d-flex flex-column gap-20">
-                    <h4>About Us</h4>
-                    <p>Our Store</p>
-                    <p>Contact Us</p>
-                    <p>About Us</p>
+                    <div class="drop d-flex">
+                        <h4>About Us</h4>
+                        <button class="bt-down d-inline">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="items">
+                        <p>Our Store</p>
+                        <p>Contact Us</p>
+                        <p>About Us</p>
+                    </div>
                     
                 </div>
 
                 <div class="sign-up d-flex flex-column gap-20">
-                    <h4>Sign Up for Email</h4>
                     
-                    <form>
-                        <label for="sign-up">
-                            Sign up to get first dibs on new arrivals, sales, exclusive content, events and more!
-                        </label>
-                        
-                        <div class="subscribe">
-                            <input type="email" name="email" placeholder="email@example.com" autocomplete="on" required>
-                            <button type="submit">Subscribe</button>
-                        
-                        </div>
-                       </form>
+                    <div class="drop d-flex">
+                        <h4>Sign Up for Email</h4>
+                        <button class="bt-down d-inline">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                    </div>
+                   
+
+
+                    <div class="items">
+                        <form>
+                            <label for="sign-up">
+                                Sign up to get first dibs on new arrivals, sales, exclusive content, events and more!
+                            </label>
+                            
+                            <div class="subscribe">
+                                <input type="email" name="email" placeholder="email@example.com" autocomplete="on" required>
+                                <button type="submit">Subscribe</button>
+                            
+                            </div>
+                           </form>
+                    </div>
+                    
                     
                 </div>
 
