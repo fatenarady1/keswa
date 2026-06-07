@@ -8,12 +8,12 @@
     <link href="./css/main.css" rel="stylesheet">
      <link href="./css/all.min.css" rel="stylesheet" >    
 </head>
-</head>
+
 <body>
 
-    <div class="whatsapp-icon d-flex">
+    <a href="tel:+201011387451" class="whatsapp-icon d-flex">
         <i class="fa-brands fa-whatsapp"></i>
-    </div>
+    </a>
     <header>
 
         
@@ -60,15 +60,20 @@
                 <div class="bottom-header  ">
                    <div class="container">
                         <div class="row d-flex justify-content-between align-items-center">
-                            <div class="logo">
-                                <a href="#">
-                                    <img src="https://keswastore.com/storage/channel/1/yfYcRIWvOcZz2l3IrbQEu5AeaNbabfHw8pdWiMwJ.png" >
-                                </a>
-                            </div>
+                          
+                                <div class="logo">
+                                    <a href="#">
+                                        <img src="https://keswastore.com/storage/channel/1/yfYcRIWvOcZz2l3IrbQEu5AeaNbabfHw8pdWiMwJ.png" >
+                                    </a>
+                                </div>
+
+                                
+                                <button class="nav-btn">
+                                    <i class="fa-solid fa-bars"></i>
+                                </button>
+                           
+                           
                             
-                            <button class="nav-btn">
-                                <i class="fa-solid fa-bars"></i>
-                            </button>
                             <nav class="nav-bar">
                                 <ul class="d-flex">
                                     <li>
@@ -113,11 +118,6 @@
                                         </a>
                                     </li>
                                     
-                                    <li>
-                                        <a href="#">
-                                            SweatShirt
-                                        </a>
-                                    </li>
                                     
                                     <li>
                                         <a href="#">
@@ -145,8 +145,8 @@
              
                    
                 </div>
-            </div>
-        </div>
+            
+        
        
     </header>
 
@@ -156,7 +156,7 @@
         <div class="container">
             <div class="row d-flex justify-content-between">
 
-                <div class="img-details d-flex justify-content-between">
+                <div class="img-details d-flex">
                      <div class="imgs d-flex flex-column">
                         <img src="./img/keswa2.webp" alt="this is a product">
 
@@ -166,6 +166,7 @@
 
                         <img src="./img/keswa4.webp" alt="this is a product">
                     </div>
+                    
                     <img src="./img/product.webp" alt="this is a product">
                 </div>
 
@@ -174,8 +175,8 @@
                     <!-- FIXME: -->
                     <button class="wish-list">
                         <i class="fav fa-regular fa-heart"></i>
-                   
                     </button>
+
                      <div class="price">
                         <span class="new-price">690 <span>EGP</span>
                           <del>1100 <span>EGP</span></del>
@@ -217,7 +218,7 @@
               
                     <div class="buying d-flex">
 
-                        <div class="select d-flex align-items-center justify-content-center">
+                        <div class="select d-flex align-items-center justify-content-between">
                             <button>-</button>
                             <span>1</span>
                             <button>+</button>
@@ -353,18 +354,20 @@
                       
                     </div>
 
-                    <p>
-                        Address: Benha – Al Ahram District, Amn El-Dawla Street, in front of Al-Fayoumy Street, Egypt.
-                    </p>
-
-                    <p> Email:
-                        <a href="mailto:info@keswastore.com">info@keswastore.com</a>
-                    </p>
-
-                    <p>
-                        Phone / WhatsApp:
-                        <a href="#">+20 101 138 7451</a>
-                    </p>
+                    <div class="keswa-data d-flex">
+                        <p>
+                            Address: Benha – Al Ahram District, Amn El-Dawla Street, in front of Al-Fayoumy Street, Egypt.
+                        </p>
+    
+                        <p> Email:
+                            <a href="mailto:info@keswastore.com">info@keswastore.com</a>
+                        </p>
+    
+                        <p>
+                            Phone / WhatsApp:
+                            <a href="tel:+201011387451">+20 101 138 7451</a>
+                        </p>
+                    </div>
                     <div class="social-icons d-flex">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -439,8 +442,10 @@
                                 Sign up to get first dibs on new arrivals, sales, exclusive content, events and more!
                             </label>
                             
-                            <div class="subscribe">
-                                <input type="email" name="email" placeholder="email@example.com" autocomplete="on" required>
+
+                            <!-- FIXME: -->
+                            <div class="subscribe ">
+                                <input id="sign-up" type="email" name="email" placeholder="email@example.com" autocomplete="on" required>
                                 <button type="submit">Subscribe</button>
                             
                             </div>
@@ -465,5 +470,26 @@
 
         </div>
     </footer>
+
+    <div class="bottom-nav d-flex align-items-center">
+        <a href="#" >
+            <i class="fa-regular fa-house"></i>
+        </a>
+
+
+        <a href="#"> 
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-bag-shopping"></i>
+        </a>
+
+        <a href="#">
+            <i class="fa-regular fa-heart"></i>
+        </a>
+
+        
+    </div>
 </body>
 </html>

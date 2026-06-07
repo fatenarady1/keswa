@@ -6,7 +6,7 @@
 
 
 * {
-    font-family: 'Inter';
+    font-family: sans-serif;
 }
 .container {
     max-width: 1300px;
@@ -22,6 +22,10 @@
     margin-right: -15px;
 }
 
+a, button {
+
+    cursor: pointer;
+}
 
 
 
